@@ -92,7 +92,7 @@ fun MyDrawerApp() {
             Scaffold(
                 topBar = {
                     TopAppBar(
-                        title = { Text("MyDrawer") },
+                        title = { Text("") },
                         navigationIcon = {
                             IconButton(onClick = {
                                 scope.launch { drawerState.open() }
